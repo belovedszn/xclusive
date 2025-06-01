@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#main {
+  padding: 100px;
+}
+
+
+.link-redirection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.link-redirection a {
+  text-decoration: none;
+  color: #000;
+}
+
+.link-redirection div {
+  font-size: 24px;
+}
+
+.link-redirection .first {
+  opacity: 0.7;
+}
+
+.about-us-container {
+  padding-top: 30px;
+}
+
+.about-us-container .about-us-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.about-us-box .details-box {
+  padding-top: 100px;
+}
+
+.about-us-box .details-box .details-title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 50px;
+}
+
+.about-us-box .details-box .details-message {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-right: 100px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.last-box {
+  padding: 100px;
+}
+
+.last-box .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.last-box .icon-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  gap: 20px;
+  border: 1px solid #e2d9d9;
+}
+
+.last-box .icon-box .icon-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.last-box .icon-box h3 {
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.last-box .icon-box p {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.last-box .inner-one {
+  padding: 15px;
+  background: #bbb;
+  border-radius: 50%;
+}
+
+.last-box .inner-two {
+  background: #000;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+
+.last-box .sale-one {
+  padding: 15px;
+  background: rgb(223, 122, 122);
+  border-radius: 50%;
+}
+
+.last-box .sale-two {
+  background: #fff;
+  padding: 15px;
+  border-radius: 50%;
+}

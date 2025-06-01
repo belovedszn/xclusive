@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  padding: 100px;
+}
+
+.wishlist-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.wishlist-container button {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.product-box .bi-trash {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.overlay {
+  visibility: visible;
+}
+
+.discount {
+  opacity: 0;
+}
+
+.action-icons {
+  opacity: 1;
+}
+
+.product-card:hover .discount {
+  opacity: 1;
+}
+
+.jsEmpty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptywish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.emptybox {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.emptywish svg {
+  height: 100px;
+  width: 100%;
+  color: red;
+}
+
+.emptywish .first {
+  font-size: 30px;
+}
+
+.emptywish .second {
+  font-size: 22px;
+}
+
+.js-move-all-to-cart {
+  cursor: pointer;
+}
+
+.baggy-heart {
+  display: block;
+}

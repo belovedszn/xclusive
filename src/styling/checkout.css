@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  padding: 100px;
+}
+
+.link-redirection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.link-redirection a {
+  text-decoration: none;
+  color: #000;
+}
+
+.link-redirection div {
+  font-size: 24px;
+}
+
+.link-redirection .first {
+  opacity: 0.7;
+}
+
+.billing-container {
+  padding-top: 50px;
+}
+
+.billing-container div {
+  font-size: 32px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.checkout-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.billing-box label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.billing-box input {
+  padding: 20px;
+  height: 50px;
+  width: 400px;
+  background: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.billing-box .checkbox {
+  display: flex;
+  gap: 15px;
+}
+
+.checkbox input {
+  height: 20px;
+  width: 20px;
+}
+
+.cart-subtotal {
+  height: 100%;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.cart-subtotal div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.cart-subtotal .total-box {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.item-box {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.item-box .first {
+  gap: 20px;
+}
+
+.item-box img {
+  width: 40px;
+  height: 40px;
+}
+
+.cart-subtotal .last-total-box {
+  padding-top: 20px;
+}
+
+.payment {
+  padding-top: 30px;
+}
+
+.payment .first {
+  gap: 10px;
+}
+
+.payment .dot {
+  border: 1px solid #000;
+  border-radius: 50px;
+  /* padding: 5px; */
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.d-o-t {
+  border-radius: 50px;
+  background: #000;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+}
+
+.input {
+  display: inline-block;
+}
+
+.final-container .coupon-box {
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.coupon-box input {
+  height: 60px;
+  width: 300px;
+  padding-left: 15px;
+  border: 1px solid #000;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.coupon-box button {
+  height: 60px;
+  width: 300px;
+  border: 1px solid rgb(226, 32, 32);
+  font-size: 18px;
+  border-radius: 5px;
+  background: rgb(226, 32, 32);
+  color: #fff;
+  cursor: pointer;
+}
+
+.payment-method {
+  gap: 10px;
+}
+
+.orderBtn {
+  height: 60px;
+  width: 300px;
+  border: 1px solid rgb(226, 32, 32);
+  font-size: 18px;
+  border-radius: 5px;
+  background: rgb(226, 32, 32);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.radio-container {
+  margin-top: 30px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.custom-radio {
+  width: 24px;
+  height: 24px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  background-color: white;
+}
+
+input[type="radio"]:checked + .custom-radio {
+  background-color: white; /* Outer circle stays white */
+}
+
+input[type="radio"] + .custom-radio::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: white; /* Initially white inner circle */
+  border: 4px solid black; /* Adds the black outer border */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  opacity: 0;
+}
+
+input[type="radio"]:checked + .custom-radio::after {
+  background-color: black; /* Black center when selected */
+  opacity: 1;
+}
+
+.breadcrumb {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb span {
+    margin: 0 5px;
+  }
+  
