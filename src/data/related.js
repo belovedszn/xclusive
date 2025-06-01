@@ -2,7 +2,7 @@ import gamepad from "../assets/media/gamepad.png";
 import ideapad from "../assets/media/ideapad.png";
 import boombox from "../assets/media/boombox.png";
 import bookshelf from "../assets/media/bookshelf.png";
-import benz from "../assets/media/Benz.png";
+import benz from "../assets/media/benz.png";
 import keyboard from "../assets/media/ak-900-01-500x500 1.png";
 
 export const products = [
