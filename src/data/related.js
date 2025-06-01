@@ -2,7 +2,7 @@ import gamepad from "../assets/media/gamepad.png";
 import ideapad from "../assets/media/ideapad.png";
 import boombox from "../assets/media/boombox.png";
 import bookshelf from "../assets/media/bookshelf.png";
-import benz from "../assets/media/benz.png";
+//import benz from "../assets/media/benz.png";
 import keyboard from "../assets/media/ak-900-01-500x500 1.png";
 
 export const products = [
@@ -39,7 +39,7 @@ export const products = [
   },
   {
     id: "related-2electric444",
-    image: benz,
+    image: "./assets/media/benz.png",
     price: "$960",
     item: "Kids Electric Car",
     slashPrice: "$1200",
