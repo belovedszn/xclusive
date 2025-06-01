@@ -3,7 +3,7 @@ import CellPhone from "../../assets/media/Category-CellPhone.png";
 import Computer from "../../assets/media/Category-Computer.png";
 import SmartWatch from "../../assets/media/Category-SmartWatch.png";
 import Camera from "../../assets/media/Category-Camera.png";
-import Headphone from "../../assets/media/Category-HeadPhone.png";
+import Headphone from "../../assets/media/Category-Headphone.png";
 import Gamepad from "../../assets/media/Category-Gamepad.png";
 function SelectCategory() {
   return (
