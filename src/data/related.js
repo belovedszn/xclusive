@@ -36,15 +36,15 @@ export const products = [
     item: "Small Bookself",
     slashPrice: "$205",
     rating: [{}],
-  },
+  },/*
   {
     id: "related-2electric444",
-    image: "./assets/media/benz.png",
+    image: benz,
     price: "$960",
     item: "Kids Electric Car",
     slashPrice: "$1200",
     rating: [{}],
-  },
+  }, */
   {
     id: "related-9z71fn2t",
     discount: "-35%",
