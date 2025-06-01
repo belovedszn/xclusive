@@ -1,7 +1,7 @@
 import React from "react";
 import deliveryIcon from "../../assets/media/icon-delivery.png";
-import customerIcon from "../../assets/media/icon-customer.png";
-import secureIcon from "../../assets/media/icon-secure.png";
+import customerIcon from "../../assets/media/Icon-customer.png";
+import secureIcon from "../../assets/media/Icon-secure.png";
 
 function LastBox() {
   return (
